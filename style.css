@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#333;
+}
+
+body {
+	background-color:#999;
+}
+
+div {
+	text-align:left;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	color:#F00;
+}
+
+textarea {
+	position:absolute;
+	top:2px;
+	left:2px;
+	width:272px;
+	height:74px;
+}
+
+table {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+
+table tr .Column0 {
+	width:125px;
+	text-align:center;
+	border-bottom:1px dashed #FFF;
+}
+
+table .Column1 {
+	width:230px;
+	text-align:left;
+	border-bottom:1px dashed #FFF;
+	
+}
+
+table .Column2 {
+	width:105px;
+	text-align:center;
+	border-bottom:1px dashed #FFF;
+}
+
+.Page {
+	position:relative;
+	width:1200px;
+	height:650px;
+	background-color:#EEE;
+	border:1px solid #FFF;
+}
+
+.Header {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1200px;
+	height:50px;
+	background-color:#CCC;
+	font-size:36px;
+	color:#F00;
+}
+
+.Header .Menu {
+	position:absolute;
+	top:30px;
+	left:600px;
+	width:600px;
+	font-size:12px;
+	text-align:right;
+}
+
+.Header .Add {
+	position:absolute;
+	top:30px;
+	left:260px;
+	font-size:12px;
+	text-align:дуае;
+}
+
+.Left {
+	position:absolute;
+	top:50px;
+	left:0px;
+	width:250px;
+	height:600px;
+	background-color:#CCC;
+}
+
+.Left .Search {
+	position:absolute;
+	top:0px;
+	left:5px;
+	width:235px;	
+}
+
+.Left .Search .Input {
+	width:100%;
+}
+
+.Left .List {
+	position:absolute;
+	top:50px;
+	left:5px;
+	width:238px;
+	height:540px;
+	overflow:auto;
+	background-color:#EEE;
+	border:1px dashed #FFF;
+}
+
+.Content {
+	position:absolute;
+	top:55px;
+	left:255px;
+	width:940px;
+	height:590px;
+	background-color:#CCC;
+}
+
+.Content .UserInfo {
+	position:absolute;
+	top:5px;
+	left:5px;
+	width:450px;
+	height:470px;
+	background-color:#FFF;
+}
+
+.Content .UserInfo .Line1_1 {
+	position:absolute;
+	left:5px;
+	width:153px;
+	height:19px;
+	padding:3px 3px 3px 3px;
+	background-color:#DDD;
+	border-right:1px dashed #FFF;
+}
+
+.Content .UserInfo .Line1_2 {
+	left:165px;
+	position:absolute;
+	width:280px;
+	height:25px;
+	background-color:#DDD;
+}
+
+.Content .UserInfo .Line2_1 {
+	position:absolute;
+	left:5px;
+	width:153px;
+	height:19px;
+	padding:3px 3px 3px 3px;
+	background-color:#EEE;
+	border-right:1px dashed #FFF;
+}
+
+.Content .UserInfo .Line2_2 {
+	position:absolute;
+	left:165px;
+	width:280px;
+	height:25px;
+	background-color:#EEE;
+}
+
+.Content .UserInfo .Line1_2 .InputLine0, .Content .UserInfo .Line2_2 .InputLine0 {
+	position:absolute;
+	top:2px;
+	left:2px;
+	width:270px;
+	height:17px;
+}
+
+.Content .ReceptionInfo {
+	position:absolute;
+	top:5px;
+	left:460px;
+	width:475px;
+	height:350px;
+	background-color:#FFF;
+}
+
+.Content .ReceptionInfo .Table {
+	position:absolute;
+	top:32px;
+	left:5px;
+	width:465px;
+	height:283px;
+	background-color:#EEE;
+	overflow:auto;
+}
+
+.Content .ReceptionInfo .BottomPanel {
+	position:absolute;
+	top:320px;
+	left:5px;
+	width:455px;
+	height:20px;
+	padding:2px 5px 3px 5px;
+	text-align:center;
+	background-color:#CCC;
+}
+
+.Content .BlackListInfo {
+	position:absolute;
+	top:360px;
+	left:460px;
+	width:475px;
+	height:115px;
+	background-color:#FFF;
+}
+
+.Content .ReceptionInfo .Title, .Content .BlackListInfo .Title {
+	position:absolute;
+	top:5px;
+	height:17px;
+	padding:2px 5px 3px 5px;
+	text-align:center;
+	background-color:#CCC;
+}
+
+.Content .BlackListInfo .Text{
+	position:absolute;
+	top:31px;
+	left:5px;
+	width:463px;
+	height:48px;
+}
+
+.Content .BlackListInfo .BottomPanel {
+	position:absolute;
+	top:85px;
+	left:5px;
+	width:455px;
+	height:20px;
+	padding:2px 5px 3px 5px;
+	text-align:right;
+	background-color:#CCC;
+}
+
+.SelectInputLine {
+	position:absolute;
+	top:2px;
+}
+
+.Info {
+	position:absolute;
+	top:3px;
+	left:1170px;
+	cursor:pointer;
+}
